@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+.menu-container {
+    background-color: rgb(111, 112, 112);
+    width: 300px;
+    padding: 30px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.menu-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
