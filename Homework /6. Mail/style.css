@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.left-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.right-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.Name {
+    font-weight: bold;
+}
+
+.email {
+    font-weight: bold;
+}
+
+.icon-mail,
+.icon-profile {
+    width: 40px;
+    height: 40px;
+}
+
+main {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    padding: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 15px;
+    color: #333;
+    padding: 10px 15px;
+}
+
+.nav-link:hover {
+    background-color: #f2b1b1;
+    cursor: pointer;
+}
+
+/* --- */
+
+.email-list {
+    flex-grow: 1;
+}
+
+.email-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px;
+    gap: 20px;
+}
+
+.email-item:hover {
+    background-color: #f2b1b1;
+    cursor: pointer;
+}
+
+.email-sender-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+}
+
+.email-subject {
+    font-weight: bold;
+    width: 200px;
+}
+
+.email-summary {
+    flex-grow: 1;
+    color: #888;
+}
+
+.email-date-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
